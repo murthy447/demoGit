@@ -11,16 +11,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-public class SampleGitTest {
-
+public class SampleGitTest2 {
 	@Test
 	public void loginTest() throws IOException{
 		System.setProperty("webdriver.chrome.driver", "D:\\SeleniumWorkspace\\WebDriver\\Browser\\chromedriver.exe");
 		WebDriver wd = new ChromeDriver();
 	wd.manage().window().maximize();
-	wd.get("https://www.google.com/");
-	
+	wd.get("https://www.bing.com/");
+	//int i=1/0;
 	File f = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
-	FileUtils.copyFile(f, new File("D:\\SeleniumWorkspace\\sampleGit\\Screenshot\\image.jpeg"));
+	FileUtils.copyFile(f, new File("D:\\SeleniumWorkspace\\sampleGit\\Screenshot\\bing.jpeg"));
 	}
 }
