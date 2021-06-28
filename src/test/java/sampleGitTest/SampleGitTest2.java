@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 public class SampleGitTest2 {
 	@Test
 	public void loginTest() throws IOException{
-		System.setProperty("webdriver.chrome.driver", "D:\\SeleniumWorkspace\\WebDriver\\Browser\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".\\Browser\\chromedriver.exe");
 		WebDriver wd = new ChromeDriver();
 	wd.manage().window().maximize();
 	wd.get("https://www.bing.com/");
