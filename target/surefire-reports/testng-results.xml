@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="71219" started-at="2021-06-28T08:07:01Z" finished-at="2021-06-28T08:08:12Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="40561" started-at="2021-06-28T08:07:01Z" finished-at="2021-06-28T08:07:41Z">
+      <class name="sampleGitTest.SampleGitTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:sampleGitTest.SampleGitTest@4563e9ab]" name="loginTest" duration-ms="40529" started-at="2021-06-28T13:37:01Z" finished-at="2021-06-28T13:37:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- sampleGitTest.SampleGitTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="30464" started-at="2021-06-28T08:07:41Z" finished-at="2021-06-28T08:08:12Z">
+      <class name="sampleGitTest.SampleGitTest2">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:sampleGitTest.SampleGitTest2@2d209079]" name="loginTest" duration-ms="30464" started-at="2021-06-28T13:37:41Z" finished-at="2021-06-28T13:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- sampleGitTest.SampleGitTest2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,5 +1,25 @@
 Manifest-Version: 1.0
 Built-By: Murthy
+Class-Path: outjar/selenium-java-2.53.1.jar outjar/selenium-chrome-dri
+ ver-2.53.1.jar outjar/selenium-remote-driver-2.53.1.jar outjar/cglib-
+ nodep-2.1_3.jar outjar/gson-2.3.1.jar outjar/selenium-api-2.53.1.jar 
+ outjar/httpclient-4.5.1.jar outjar/httpcore-4.4.3.jar outjar/guava-19
+ .0.jar outjar/selenium-edge-driver-2.53.1.jar outjar/commons-io-2.4.j
+ ar outjar/commons-exec-1.3.jar outjar/htmlunit-driver-2.21.jar outjar
+ /htmlunit-2.21.jar outjar/xalan-2.7.2.jar outjar/serializer-2.7.2.jar
+  outjar/commons-lang3-3.4.jar outjar/httpmime-4.5.2.jar outjar/common
+ s-codec-1.10.jar outjar/htmlunit-core-js-2.17.jar outjar/neko-htmluni
+ t-2.21.jar outjar/xercesImpl-2.11.0.jar outjar/xml-apis-1.4.01.jar ou
+ tjar/cssparser-0.9.18.jar outjar/sac-1.3.jar outjar/commons-logging-1
+ .2.jar outjar/websocket-client-9.2.15.v20160210.jar outjar/jetty-util
+ -9.2.15.v20160210.jar outjar/jetty-io-9.2.15.v20160210.jar outjar/web
+ socket-common-9.2.15.v20160210.jar outjar/websocket-api-9.2.15.v20160
+ 210.jar outjar/commons-collections-3.2.2.jar outjar/selenium-firefox-
+ driver-2.53.1.jar outjar/selenium-ie-driver-2.53.1.jar outjar/jna-4.1
+ .0.jar outjar/jna-platform-4.1.0.jar outjar/selenium-safari-driver-2.
+ 53.1.jar outjar/netty-3.5.7.Final.jar outjar/selenium-support-2.53.1.
+ jar outjar/selenium-leg-rc-2.53.1.jar
 Build-Jdk: 1.8.0_191
 Created-By: Maven Integration for Eclipse
+Main-Class: theMainClass
 
