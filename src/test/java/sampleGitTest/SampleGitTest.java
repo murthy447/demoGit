@@ -21,6 +21,6 @@ public class SampleGitTest {
 	wd.get("https://www.google.com/");
 	
 	File f = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
-	FileUtils.copyFile(f, new File("D:\\SeleniumWorkspace\\sampleGit\\Screenshot\\image.jpeg"));
+	FileUtils.copyFile(f, new File("D:\\SeleniumWorkspace\\sampleGit\\Screenshot\\google.jpeg"));
 	}
 }
