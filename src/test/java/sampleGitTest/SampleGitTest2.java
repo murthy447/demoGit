@@ -17,6 +17,7 @@ public class SampleGitTest2 {
 		System.setProperty("webdriver.chrome.driver", ".\\Browser\\chromedriver.exe");
 		WebDriver wd = new ChromeDriver();
 	wd.manage().window().maximize();
+		System.out.println("added in new brach");
 	wd.get("https://www.bing.com/");
 	//int i=1/0;
 	File f = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
